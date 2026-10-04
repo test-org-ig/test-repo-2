@@ -16,7 +16,8 @@
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
-        "systems": "systems"
+        "systems": "systems",
+        "test-repo-1": "test-repo-1"
       }
     },
     "systems": {
@@ -31,6 +32,26 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default-linux",
+        "type": "github"
+      }
+    },
+    "test-repo-1": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1791103759,
+        "narHash": "sha256-Vg88WnrLD3pK2SGKGFVi3Supy9FonF3EEiW6RRODM0E=",
+        "owner": "test-org-ig",
+        "repo": "test-repo-1",
+        "rev": "5ad3ec450b85d8dbf1eb6f290537be8940a8c4d8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "test-org-ig",
+        "repo": "test-repo-1",
         "type": "github"
       }
     }
