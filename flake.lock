@@ -42,11 +42,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1791685318,
-        "narHash": "sha256-xgGIk02Wc/VJSVYeJn430HzYZ9UubXuIxCCKZZJpUbg=",
+        "lastModified": 1792287577,
+        "narHash": "sha256-3/1pHFFIz7zL9p/KVxcV04Fmvqd0a0xj0lBaIBMrLQI=",
         "owner": "test-org-ig",
         "repo": "test-repo-1",
-        "rev": "9e08be4353a86ded5401f53ad1237c9e7c694bbc",
+        "rev": "6f046169ff89b258455b742b073c49bc33354b50",
         "type": "github"
       },
       "original": {
